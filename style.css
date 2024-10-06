@@ -1,0 +1,98 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F2F2F2;
+    color: #131D26;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #59331D;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #D98555;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #082B59;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #131D26;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #082B59;
+    color: #F2F2F2;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #D98555;
+    color: #131D26;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #131D26;
+}
+
+footer a {
+    color: #131D26;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
